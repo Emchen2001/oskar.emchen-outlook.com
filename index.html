@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>formulär</title>
+  </head>
+  <div class="container">
+  <body>
+    <h1>Formulär!</h1>
+<form>
+<label for="Telefonnummer">ange ditt telefonnummer:</label><br>
+  <input type="text" pattern=".+" name="telefonnummer" placeholder="072-123 45 67"> <br>
+  <br>
+<label for="e-post">ange din e-postst:</label><br>
+  <input type="text" pattern=".+@.+\..+" name="e-post" placeholder="kalle.johanson@mats.se"> <br>
+  <br>
+  <label for="e-post">Ditt förnamn:</label><br>
+  <input type="text" pattern=".+" name="fornamn" placeholder="kalle"> <br>
+  <br>
+  <label for="e-post">Ditt efternamn:</label><br>
+  <input type="text" pattern=".+" name="efternamn" placeholder="johanson"> <br>
+  <br>
+  <label for="kategori">kategori:</label><br>
+  <select id="kategori">
+    <option value="tech-suport">tech-suport</option>
+    <option value="tech-suport">reklam-avdelning</option>
+    <option value="tech-suport">humanistiska</option>
+    <option value="tech-suport">vaktmästeri</option>
+    <option value="tech-suport">VD-kontoret</option>
+  </select>
+  <br><br>
+  <label>Adress:</label><br>
+  <label>Ort:</label><br>
+  <input type="" name="ort" list="ort">
+  <datalist id="ort">
+    <option value="Ronneby">
+      <option value="Kallinge">
+        <option value="Bräkne Hoby">
+          <option value="Listerby">
+  </datalist>
+  <br>
+  <label for="gatuadress">gatunamn & nummer:</label><br>
+  <input type="text" pattern=".+" name="gatuadress" placeholder="Blåbersvägen 69"> <br>
+<label for="postnummer:">Postnummer:</label><br>
+  <input type="text" pattern=".+" name="postnummer" placeholder="37237"> <br><br>
+
+
+  <label for="komentarer">Komentar:</label><br>
+  <textarea name="komentarer" placeholder="jag önskar att....."></textarea><br>
+
+
+
+
+
+  <label>kryssa:</label><br>
+  <input type="radio" name="Nyhetsbrev" value="nyhetsbrev">Vill du ha vårat nyhetsbrev? <br>
+  <input type="radio" name="anvandarvilkar" value="anvandarvilkar">accepterar du våra användarvilkår?
+  <br><br>
+
+
+  <input type="submit" name="Skicka">
+
+</div>
+
+
+
+</form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
